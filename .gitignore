@@ -1,0 +1,29 @@
+# System files and directories to ignore
+Application Data/
+Cookies/
+Documents/
+Intel/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+NTUSER.DAT*
+AppData/
+Downloads/
+OneDrive/
+Favorites/
+Saved Games/
+Searches/
+Videos/
+Pictures/
+VirtualBox VMs/
+# IDE-specific or project files to ignore
+.idea/
+*.log
+*.sql
+.vscode/
+node_modules/

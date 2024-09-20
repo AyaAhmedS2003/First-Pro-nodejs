@@ -1,4 +1,9 @@
 const express = require('express');
+const mongoose = require('mongoose');
+const url ="mongodb+srv://ayashalabii30:12345@learn-mongodb.zm56u.mongodb.net/CreateNewDatabase?retryWrites=true&w=majority&appName=learn-mongodb"
+mongoose.connect(url).then(()=>{
+console.log("mongodb server statrted");
+})
 const { body, validationResult } = require('express-validator');
 const app = express();
 app.use(express.json());
